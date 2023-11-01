@@ -6,7 +6,7 @@ import numpy as np
 from neuroHarmonize import harmonizationLearn
 
 #In the terminal, you would run the script like this:
-#python3 harmonize_FunctionalMatrices.py --data /path/to/data.csv --covariates /path/to/covariates.csv --output_dir /path/to/output --atlas YourAtlasChoice
+#python3 harmonizeFunctionalMatrices.py --data /path/to/data.csv --covariates /path/to/covariates.csv --output_dir /path/to/output --atlas YourAtlasChoice
 
 def process_fMRI_csv_files(csv_directory, atlas):
     # Get a list of CSV filenames in sorted order
