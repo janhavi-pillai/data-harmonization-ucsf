@@ -8,4 +8,4 @@ Cortical Thickness:
 Functional Matrices:
 `python3 harmonize_FunctionalMatrices.py --data /path/to/data.csv --covariates /path/to/covariates.csv --output_dir /path/to/output --atlas YourAtlasChoice`
 
-Note: We only have the BNA & Schaeffer400 atlases built in. You may need to make modifications to account for other atlases. 
+Note: We only have the Brainnetome (BNA) & Schaeffer400 atlases built in. You may need to make modifications to account for other atlases. 
